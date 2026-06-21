@@ -1,0 +1,19 @@
+# ============================================================
+# Dados — não versionar (arquivos grandes e/ou regeneráveis)
+# ============================================================
+
+# Pasta de dados (bases do Football Manager: CSV e ZIP)
+/data/
+
+# Saídas de dados geradas pelo pipeline
+*.csv
+
+# Arquivos compactados de dados
+*.zip
+
+# ============================================================
+# Artefatos Python / Jupyter
+# ============================================================
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
