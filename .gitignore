@@ -1,15 +1,23 @@
 # ============================================================
-# Dados — não versionar (arquivos grandes e/ou regeneráveis)
+# Relatórios — não versionar
 # ============================================================
+/relatorio/
+/relatorio-luiz/
+/relatorio-unificado/
 
-# Pasta de dados (bases do Football Manager: CSV e ZIP)
+# ============================================================
+# Dados brutos do Football Manager — não versionar
+# (CSVs de 90–110 MB estouram o limite do GitHub; mantidos
+#  localmente. Os notebooks usam dados_processados/, que é versionado.)
+# ============================================================
 /data/
 
-# Saídas de dados geradas pelo pipeline
-*.csv
-
-# Arquivos compactados de dados
+# Exports compactados (relatórios zipados p/ Overleaf etc.)
 *.zip
+
+# Scripts de verificação/scratch descartáveis
+/verificar_statsbomb_wc2022.py
+/modelagem_final.py
 
 # ============================================================
 # Artefatos Python / Jupyter
