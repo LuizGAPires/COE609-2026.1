@@ -1,0 +1,27 @@
+# ============================================================
+# Relatórios — não versionar
+# ============================================================
+/relatorio/
+/relatorio-luiz/
+/relatorio-unificado/
+
+# ============================================================
+# Dados brutos do Football Manager — não versionar
+# (CSVs de 90–110 MB estouram o limite do GitHub; mantidos
+#  localmente. Os notebooks usam dados_processados/, que é versionado.)
+# ============================================================
+/data/
+
+# Exports compactados (relatórios zipados p/ Overleaf etc.)
+*.zip
+
+# Scripts de verificação/scratch descartáveis
+/verificar_statsbomb_wc2022.py
+/modelagem_final.py
+
+# ============================================================
+# Artefatos Python / Jupyter
+# ============================================================
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
